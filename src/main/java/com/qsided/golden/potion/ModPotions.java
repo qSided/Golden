@@ -14,8 +14,10 @@ public class ModPotions {
 
     public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(ForgeRegistries.POTIONS, MODID);
 
-    public static RegistryObject<Potion> GOLDEN_POTION = POTIONS.register("golden_potion",
-            () -> new Potion(new MobEffectInstance(ModEffects.GOLDEN.get(), 200, 0)));
+    public static RegistryObject<Potion> POTION_O_GOLD_1 = POTIONS.register("golden_potion_1",
+            () -> new Potion(new MobEffectInstance(ModEffects.EXP_BOOST.get(), 3000, 0)));
+    public static RegistryObject<Potion> POTION_O_GOLD_2 = POTIONS.register("golden_potion_2",
+            () -> new Potion(new MobEffectInstance(ModEffects.EXP_BOOST.get(), 2100, 1)));
 
     public static void register(IEventBus event) {
         POTIONS.register(event);
