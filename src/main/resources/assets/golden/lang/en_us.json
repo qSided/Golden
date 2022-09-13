@@ -1,0 +1,17 @@
+{
+  "item.golden.golden_potato": "Golden Potato",
+  "item.golden.golden_baked_potato": "Golden Baked Potato",
+  "item.golden.golden_beetroot": "Golden Beetroot",
+  "item.golden.golden_melon": "Golden Melon",
+  "item.golden.golden_mushroom": "Golden Mushroom",
+  "item.golden.golden_beetroot_stew": "Golden Beetroot Stew",
+  "item.golden.golden_mushroom_stew": "Golden Mushroom Stew",
+  "item.golden.sour_cream_closed": "Sour Cream Packet",
+  "item.golden.sour_cream_opened": "Open Sour Cream Packet",
+  "item.golden.bacon_bits_closed": "Bag o' Bacon Bits",
+  "item.golden.bacon_bits_opened": "Open Bag o' Bacon Bits",
+  "item.golden.pristine_golden_potato": "Pristine Golden Potato",
+  "item.golden.pristine_golden_baked_potato": "Pristine Golden Baked Potato",
+  "item.minecraft.potion.effect.golden_potion": "Golden Potion",
+  "effect.golden.golden": "Golden"
+}

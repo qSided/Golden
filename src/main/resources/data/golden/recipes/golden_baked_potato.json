@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "golden:golden_potato"
+  },
+  "result": "golden:golden_baked_potato"
+}

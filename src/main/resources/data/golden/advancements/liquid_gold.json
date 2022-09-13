@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden:golden_beetroot_stew"
+    },
+    "title": "§6Liquid Gold",
+    "description": "Makes some of grandma's famous Golden Beetroot Stew",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "golden:golden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden:golden_beetroot_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "golden:golden_baked_potato"
+    ]
+  }
+}

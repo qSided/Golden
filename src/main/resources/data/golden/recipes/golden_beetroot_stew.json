@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "golden:golden_beetroot"
+    },
+    {
+      "item": "golden:golden_beetroot"
+    },
+    {
+      "item": "golden:golden_beetroot"
+    },
+    {
+      "item": "golden:golden_beetroot"
+    },
+    {
+      "item": "golden:golden_beetroot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "golden:golden_beetroot_stew"
+  }
+}

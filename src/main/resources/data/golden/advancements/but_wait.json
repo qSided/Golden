@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden:golden_baked_potato"
+    },
+    "title": "§6But wait, there's more!",
+    "description": "Why doesn't any gold melt off?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "golden:golden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden:golden_baked_potato"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "golden:golden_baked_potato"
+    ]
+  }
+}

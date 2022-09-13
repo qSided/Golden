@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden:golden_beetroot"
+    },
+    "title": "§6Beet this!",
+    "description": "I'd like to see you try...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "golden:golden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden:golden_beetroot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "golden:golden_baked_potato"
+    ]
+  }
+}

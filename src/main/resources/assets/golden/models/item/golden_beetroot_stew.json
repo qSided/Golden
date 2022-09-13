@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "golden:item/golden_beetroot_stew"
+  }
+}
